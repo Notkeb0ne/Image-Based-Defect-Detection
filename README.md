@@ -143,17 +143,27 @@ Highly Recommended
     Machine Learning Onramp
     Deep Learning Onramp
 
-Other Recommended Tutorials
+## Generated Outputs
 
-    Pretrained Deep Neural Networks (classification, feature extraction, transfer learning)
-    Get Started with Transfer Learning
-    resnet18 documentation
-    augmentedImageDatastore documentation
-    Deep Learning Toolbox documentation
-    Create and Explore Datastore for Image Classification (example)
-    Get Started with the Image Labeler (ROI + pixel labels) (for the Optional Extension)
-    Label Pixels for Semantic Segmentation (for the Optional Extension)
+The project produces the following main files:
 
+| File | Description |
+| :--- | :--- |
+| `toothbrushLabels.csv` | Complete labeled toothbrush dataset |
+| `toothbrushLabels_train.csv` | Fixed training split |
+| `toothbrushLabels_test.csv` | Fixed held-out test split |
+| `toothbrushClassifier.mat` | Saved trained classifier |
+| `toothbrushInspectionOutcomes.csv` | Saved inspection results |
+| `inspectPart.m` | Hybrid single-image inspection |
+| `runInspectionSuite.m` | Task 4 evaluation |
+| `testRobustness.m` | Task 5 robustness evaluation |
 
-# Contact (optional)
-Provide the best e-mail at which to contact you and your team in the event that you are chosen to receive a prize.
+---
+
+## Dataset Attribution and License
+
+The toothbrush images are from **MVTec AD**:
+
+> Paul Bergmann, Michael Fauser, David Sattlegger, and Carsten Steger, *"MVTec AD — A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection,"* IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019.
+
+The dataset is **Copyright © 2019 MVTec Software GmbH**. Refer to the official MVTec dataset documentation for current dataset license and usage conditions.
