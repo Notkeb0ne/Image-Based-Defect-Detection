@@ -96,9 +96,41 @@ Run the complete inspection evaluation:
 
 Run the robustness evaluation:
   * `testRobustness`
-The project uses separate helper functions for the individual inspection tasks. The main single-image inspection function is inspectPart.m.
+The project uses separate helper functions for the individual inspection tasks. The main single-image inspection function is inspectPart.m. The project does not rely on a persistent MATLAB Online Current Folder between sessions. File paths are anchored to the project/script locations where necessary so that the project can continue to locate its resources after a new MATLAB Online session.
 
-The project does not rely on a persistent MATLAB Online Current Folder between sessions. File paths are anchored to the project/script locations where necessary so that the project can continue to locate its resources after a new MATLAB Online session.
+## Training Configuration
+
+The final project uses the following primary configuration:
+
+| Setting | Value |
+| :--- | :--- |
+| **Dataset** | MVTec AD toothbrush |
+| **Classes** | good / defective |
+| **Network** | ResNet-18 |
+| **Training Method** | Transfer learning |
+| **Test Set** | 31 images |
+| **Good Test Images** | 22 |
+| **Defective Test Images** | 9 |
+| **Saved Model** | `toothbrushClassifier.mat` |
+| **Input Inspection Function** | `inspectPart.m` |
+| **Evaluation Script** | `runInspectionSuite.m` |
+| **Robustness Script** | `testRobustness.m` |
+
+> **Note:** Additional model configurations were investigated during development, including ResNet-18 with early layers frozen and SqueezeNet.
+
+---
+
+## Reproducing the Results
+
+1. Use the software and dataset setup listed above.
+2. Start from a clean MATLAB workspace.
+3. Run `organizeToothbrushDataset.m` to create the labeled dataset and fixed split.
+4. Run `trainToothbrushClassifier.m` to train and save the AI classifier.
+5. Run `runInspectionSuite.m` to evaluate the inspection system on the held-out test set.
+6. Run `testRobustness.m` to evaluate the system under simulated image variations.
+7. Review the generated CSV files, figures, and inspection outputs.
+
+The trained classifier is saved as `toothbrushClassifier.mat`, allowing the evaluation scripts to use the trained model without retraining it.
 
 # Results
 Add a picture, plot, animation, GIF, or table to demonstrate the expected result or output of your project solution.
