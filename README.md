@@ -36,12 +36,19 @@ Please add the following items:
                      GOOD / DEFECTIVE
 Inspection Pipeline
 Input & Data Categorization: Input images are organized and labeled using predefined markers to establish known good and defective samples.
+
 Classical Computer Vision: MATLAB image-processing features such as grayscale conversion, thresholding, and binary masking are used to extract pixel-level information from each image.
+
 Bristle Segmentation: Visual characteristics are used to isolate the toothbrush bristle region, producing a binary/grayscale representation that can be analyzed mathematically.
+
 Average-Image Difference: Images are compared against an averaged reference image. Matrix operations quantify differences between the reference and inspected toothbrushes to help distinguish normal and defective samples.
+
 Evidence Metrics: Measurements from the image comparison are quantified to determine the strength of evidence for a PASS or FAIL decision.
+
 Rule-Based & Neural Network Classification: The classical vision system produces a rule-based decision while a ResNet-18 CNN independently classifies the image, creating two methods of evaluating the same part.
+
 Hybrid Decision: Results from the rule-based and CNN classifiers are compared. Agreement between the two provides additional confidence in the final PASS/FAIL inspection result, while disagreement can be flagged for further review.
+
 Evaluation & Improvement: Inspection results are recorded and evaluated using metrics such as accuracy, false accepts, false rejects, and classifier disagreement, allowing the system's performance to be monitored and improved.
 
 # Project Solution Instructions
