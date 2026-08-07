@@ -3,9 +3,11 @@ This is a template repository for nominated Classroom Challenge Project submissi
 
 # Toothbrush Inspection Pipeline
 
-MVTec AD "toothbrush" category: classical evidence (bristle segmentation +
-average-image comparison) combined with a fine-tuned ResNet-18 into one
-hybrid PASS/FAIL-style (good/defective) inspection system.
+Through MATLAB’s machine learning and image classification capabilities, this project demonstrates the use of image processing, data partitioning, and classification algorithms to create a reliable system for inspecting potentially defective units.
+
+Using the MVTec AD “toothbrush” dataset, the project implements two approaches to defect detection. First, bristle segmentation and image comparison are used to create a rule-based inspection method, where binary masks, image averages, and extracted visual differences are used to determine whether a toothbrush passes or fails inspection.
+
+Additionally, a ResNet-18 convolutional neural network (CNN) is trained using MATLAB’s deep learning tools to classify toothbrush images. By combining the traditional image-processing approach with machine-learning classification, the project demonstrates a hybrid PASS/FAIL inspection system for automated manufacturing quality control.
 
 Please add the following items:
 * Short project description, including the MathWorks project number (on the GitHub page for the project)
