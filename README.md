@@ -1,4 +1,4 @@
-# <'Project Number'> <'Image-Based defect detection using Matlab'>
+# Image-Based Toothbrush Defect Detection with MATLAB
 This project highlights the growing demand for automated inspection systems and the benefits machine learning can provide in improving their efficiency and reliability. Furthermore, a hybrid approach combining traditional image processing with machine learning allows system performance to be measured, monitored, and continuously improved.
 
 # Toothbrush Inspection Pipeline
