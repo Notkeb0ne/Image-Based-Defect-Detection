@@ -86,20 +86,20 @@ The dataset is organized into `good` and `defective` labels for the supervised c
 2. Make sure the `toothbrush` dataset is available.
 3. Run the dataset organization script:
 
-  *`organizeToothbrushDataset`
+  * `organizeToothbrushDataset`
+
 Train the classifier:
-  *`trainToothbrushClassifier`
+  * `trainToothbrushClassifier`
 
 Run the complete inspection evaluation:
-  *`runInspectionSuite`
+  * `runInspectionSuite`
 
 Run the robustness evaluation:
-  *`testRobustness`
+  * `testRobustness`
 The project uses separate helper functions for the individual inspection tasks. The main single-image inspection function is inspectPart.m.
 
 The project does not rely on a persistent MATLAB Online Current Folder between sessions. File paths are anchored to the project/script locations where necessary so that the project can continue to locate its resources after a new MATLAB Online session.
 
-```
 # Results
 Add a picture, plot, animation, GIF, or table to demonstrate the expected result or output of your project solution.
 
