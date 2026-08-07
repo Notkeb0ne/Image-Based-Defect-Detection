@@ -58,7 +58,24 @@ Please explain step-by-step how to setup and run your project solution. Include 
 Add a picture, plot, animation, GIF, or table to demonstrate the expected result or output of your project solution.
 
 # Reference
-Add reference papers, data, or supporting materials that have been used, if any.
+Highly Recommended
+
+    MATLAB Onramp
+    Image Processing Onramp
+    Machine Learning Onramp
+    Deep Learning Onramp
+
+Other Recommended Tutorials
+
+    Pretrained Deep Neural Networks (classification, feature extraction, transfer learning)
+    Get Started with Transfer Learning
+    resnet18 documentation
+    augmentedImageDatastore documentation
+    Deep Learning Toolbox documentation
+    Create and Explore Datastore for Image Classification (example)
+    Get Started with the Image Labeler (ROI + pixel labels) (for the Optional Extension)
+    Label Pixels for Semantic Segmentation (for the Optional Extension)
+
 
 # Contact (optional)
 Provide the best e-mail at which to contact you and your team in the event that you are chosen to receive a prize.
