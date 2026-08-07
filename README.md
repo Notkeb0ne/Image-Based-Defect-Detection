@@ -10,8 +10,27 @@ hybrid PASS/FAIL-style (good/defective) inspection system.
 Please add the following items:
 * Short project description, including the MathWorks project number (on the GitHub page for the project)
 
-# Project Details
-Briefly describe your team's approach to the project and how you implemented your solution.
+# Project Details (Briefly describe your team's approach to the project and how you implemented your solution.)
+
+                 Input Toothbrush Image
+                           │
+              ┌────────────┴────────────┐
+              │                         │
+       Classical Vision             ResNet-18
+              │                         │
+      Bristle Segmentation         CNN Classification
+              │                         │
+     Average-Image Difference            │
+              │                         │
+      Evidence Metrics                  │
+              │                         │
+       Rule Decision                    │
+              │                         │
+              └────────────┬────────────┘
+                           │
+                    Hybrid Inspection
+                           │
+                     GOOD / DEFECTIVE
 
 # Project Solution Instructions
 Please explain step-by-step how to setup and run your project solution. Include any information about resources or external tools that might be needed to run your MATLAB code and/or Simulink model without errors.
