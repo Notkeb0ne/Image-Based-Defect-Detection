@@ -85,7 +85,7 @@ The dataset is organized into `good` and `defective` labels for the supervised c
 1. Start MATLAB and open the project directory.
 2. Make sure the `toothbrush` dataset is available.
 3. Run the dataset organization script:
-```matlab
+
   *`organizeToothbrushDataset`
 Train the classifier:
   *`trainToothbrushClassifier`
