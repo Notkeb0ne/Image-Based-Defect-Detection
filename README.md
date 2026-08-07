@@ -1,4 +1,4 @@
-# Solution to Classroom Challenge Project <'Project Number'> <'Image-Based defect inspection using Matlab'>
+# <'Project Number'> <'Image-Based defect inspection using Matlab'>
 This is a template repository for nominated Classroom Challenge Project submissions. Note to students participating in Classroom Challenge Projects: use this template so that your project may be reviewed by the MathWorks team for a prize. Remember that only your instructor can nominate projects for MathWorks review and prize eligibility. Once you have filled out this template and uploaded your MATLAB and/or Simulink solution, notify your instructor that your project is ready for review. Your instructor will need the URL for your GitHub repository to submit your project to MathWorks for evaluation.
 
 # Toothbrush Inspection Pipeline
