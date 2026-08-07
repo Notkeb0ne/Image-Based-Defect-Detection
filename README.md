@@ -51,8 +51,40 @@ Hybrid Decision: Results from the rule-based and CNN classifiers are compared. A
 
 Evaluation & Improvement: Inspection results are recorded and evaluated using metrics such as accuracy, false accepts, false rejects, and classifier disagreement, allowing the system's performance to be monitored and improved.
 
-# Project Solution Instructions
-Please explain step-by-step how to setup and run your project solution. Include any information about resources or external tools that might be needed to run your MATLAB code and/or Simulink model without errors.
+## Requirements
+
+The project was developed using **MATLAB Online**.
+
+**Required MathWorks products:**
+* MATLAB
+* Deep Learning Toolbox
+* Image Processing Toolbox
+* Deep Learning Toolbox Model for ResNet-18 Network support package
+
+> **Note:** The ResNet-18 support package may be downloaded automatically when the pretrained network is loaded for the first time.
+
+---
+
+## Dataset Setup
+
+1. The `toothbrush/` dataset is not included in the repository and must be downloaded separately from the official MVTec dataset page.
+2. After downloading the dataset, extract the `toothbrush` category so that the project can access the training and test images.
+3. The project creates its own labeled dataset files:
+   * `toothbrushLabels.csv`
+   * `toothbrushLabels_train.csv`
+   * `toothbrushLabels_test.csv`
+
+The dataset is organized into `good` and `defective` labels for the supervised classification workflow.
+
+---
+
+## How to Run the Project
+
+### Recommended: Run the MATLAB Scripts
+
+1. Start MATLAB and open the project directory.
+2. Make sure the `toothbrush` dataset is available.
+3. Run the dataset organization script:
 
 # Results
 Add a picture, plot, animation, GIF, or table to demonstrate the expected result or output of your project solution.
