@@ -133,9 +133,6 @@ The final project uses the following primary configuration:
 The trained classifier is saved as `toothbrushClassifier.mat`, allowing the evaluation scripts to use the trained model without retraining it.
 
 # Results
-
-I’d keep it fairly short for the README, but make the description match what the figures actually demonstrate:
-
 ### Results
 
 Based on the sample toothbrush images, we evaluated the inspection system using both **rule-based image processing and machine-learning classification**. The results were compared against the known ground-truth labels to quantify the performance of each approach and identify false PASS/FAIL classifications. The confusion matrices show the differences between the classical rule-based baseline and the ResNet-18 classifier, while the misclassified samples provide insight into cases where the system struggled to correctly identify defects. Together, these results allow the performance of the hybrid inspection approach to be measured and provide a basis for improving the reliability of the final **PASS/FAIL decision**.
