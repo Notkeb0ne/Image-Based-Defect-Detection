@@ -134,6 +134,11 @@ The trained classifier is saved as `toothbrushClassifier.mat`, allowing the eval
 
 # Results
 Add a picture, plot, animation, GIF, or table to demonstrate the expected result or output of your project solution.
+<img width="903" height="558" alt="Screenshot_2026-08-07_at_4 45 04_PM" src="https://github.com/user-attachments/assets/81c2e6f9-65f8-4d32-8b3a-44ad53ed8cc0" />
+<img width="903" height="558" alt="Screenshot_2026-08-07_at_4 44 50_PM" src="https://github.com/user-attachments/assets/8e43691d-9d98-48ec-a69b-d9007611a442" />
+<img width="903" height="558" alt="Screenshot_2026-08-07_at_4 44 35_PM" src="https://github.com/user-attachments/assets/1204422d-40fc-4f3f-91de-99ac4071fe67" />
+
+
 
 # Reference
 Highly Recommended
