@@ -1,0 +1,29 @@
+# MATLAB autosave / backup files
+*.asv
+*.m~
+
+# MATLAB code generation output
+codegen/
+slprj/
+
+# Compiled MEX files (platform-specific binaries)
+*.mex*
+
+# Simulink cache (harmless to ignore even if unused)
+*.slxc
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dataset images (large binary files - see README for source/citation)
+Downloads/toothbrush/
+
+# Trained network (regenerate via trainToothbrushClassifier.m rather than
+# committing a multi-MB .mat file)
+toothbrushClassifier.mat
+
+# Generated CSVs (regenerate via organizeToothbrushDataset.m / runInspectionSuite.m / testRobustness.m)
+toothbrushLabels*.csv
+toothbrushInspectionOutcomes.csv
+toothbrushRobustnessComparison.csv
